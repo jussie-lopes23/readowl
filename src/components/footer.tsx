@@ -18,11 +18,11 @@ const Footer: React.FC = () => {
     <footer className="bg-readowl-purple-medium text-readowl-purple-extralight py-10">
       <div className="container mx-auto px-6 text-center">
         <div className="flex justify-center space-x-6 mb-6">
-          <a href="#" className="hover:text-white">Sobre</a>
+         <a href="#sobre" className="hover:text-white">Sobre</a>
           <a href="#" className="hover:text-white">Termos de uso</a>
           <a href="#" className="hover:text-white">Política de Privacidade</a>
-          <a href="#" className="hover:text-white">Ajuda</a>
-          <a href="#" className="hover:text-white">Contato</a>
+          <a href="#ajuda" className="hover:text-white">Ajuda</a>
+          <a href="#contato" className="hover:text-white">Contato</a>
         </div>
 
         <div className="flex justify-center mb-4">

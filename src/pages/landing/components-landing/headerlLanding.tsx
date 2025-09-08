@@ -14,11 +14,11 @@ const Header: React.FC = () => {
           <span className="text-2xl font-bold text-readowl-purple-extralight">Readowl</span>
         </div>
         <div className="hidden md:flex items-center space-x-6 text-readowl-purple-extralight">
-          <a href="#" className="hover:text-white">Sobre</a>
-          <a href="#" className="hover:text-white">Termos de uso</a>
-          <a href="#" className="hover:text-white">Política de Privacidade</a>
-          <a href="#" className="hover:text-white">Ajuda</a>
-          <a href="#" className="hover:text-white">Contato</a>
+          <a href="#sobre" className="hover:text-white">Sobre</a>
+          <a href="/termos-de-uso" className="hover:text-white">Termos de uso</a>
+          <a href="/politica-de-privacidade" className="hover:text-white">Política de Privacidade</a>
+          <a href="#ajuda" className="hover:text-white">Ajuda</a>
+          <a href="#contato" className="hover:text-white">Contato</a>
         </div>
         <div className="flex items-center space-x-4">
             <button onClick={ () => route("/login")} className="bg-readowl-purple-light text-white font-semibold py-2 px-6 rounded-full border-4 border-readowl-purple hover:bg-readowl-purple transition-colors duration-300">
