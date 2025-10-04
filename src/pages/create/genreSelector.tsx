@@ -1,6 +1,3 @@
-// Componente convertido de Next.js para React + Vite
-// - Remove diretiva "use client"
-// - Troca next/image por <img /> nativo
 import React from 'react';
 
 export interface GenreSelectorProps {
